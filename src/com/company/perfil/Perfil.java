@@ -8,6 +8,12 @@ public class Perfil {
     public Perfil() {
     }
 
+    public Perfil(Integer id, String description, Boolean isActive) {
+        this.id = id;
+        this.description = description;
+        this.isActive = isActive;
+    }
+
     public Integer getId() {
         return id;
     }
